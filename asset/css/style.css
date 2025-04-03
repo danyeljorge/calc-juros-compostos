@@ -220,6 +220,22 @@ select {
             width: 90%;
         }
 
+        #resultado {
+            width: 90%;
+        }
+        #resultado h2 {
+            margin-top: 30px;
+            font-size: 25px;
+        }
+
+        #resultado p {
+            font-size: 15px;
+        }
+       
+        #resultadoTotal {
+            font-size: 18px !important;
+        }
+
         #rodape {
             margin-top: 50px;
         }
