@@ -128,12 +128,17 @@ select {
     flex-direction: column;
     margin-bottom: 50px;
     gap: 20px;
+    display: none;
+}
+#resultado.visualizar {
+    display: block;
 }
 
 #resultado h2 {
     color: #00515a;
     font-size: 30px;
     font-weight: bold;
+    
 }
 
 #resultado p {
@@ -141,7 +146,9 @@ select {
     font-size: 20px;
     font-weight: bold;
     padding: 10px 10px;
+    
 }
+
 
 #resultadoJuros {
     background-color: white;
@@ -222,6 +229,11 @@ select {
 
         #resultado {
             width: 90%;
+            display: none;
+        }
+
+        #resultado.visualizar {
+            display: block;
         }
         #resultado h2 {
             margin-top: 30px;

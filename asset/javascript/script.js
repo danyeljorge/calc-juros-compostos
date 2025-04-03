@@ -22,6 +22,8 @@ function cacularJuros() {
       2,
       0
     )}</p>`;
+
+    document.querySelector("#resultado").classList.add("visualizar");
   }
 
   resultadoTotal.innerHTML = `O valor total após ${tempoInvestido} em ${periodo} é de R$${valorFinal.toFixed(
