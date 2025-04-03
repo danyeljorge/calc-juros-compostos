@@ -24,25 +24,25 @@
         <div class="direito">
           <label for="valorIncial">Valor Inicial</label>
           <input
-            type="number"
+            type="number" inputmode="numeric"
             id="valorInicial"
             placeholder="Valor Incial do Investimento"
           />
           <label for="taxaJuros"> Taxa de Juros %</label>
           <input
-            type="number"
+            type="number" inputmode="numeric"
             id="taxaJuros"
             placeholder="Insira a Taxa de Juros"
           />
 
           <select name="periodo" id="periodo">
-            <option value="diario">Diario</option>
-            <option value="mensal">Mensal</option>
+            <option value="dia">Dia(s)</option>
+            <option value="mes">Mês(es)</option>
           </select>
 
           <label for="tempoInvestido">Tempo de Investimento</label>
           <input
-            type="number"
+            type="number" inputmode="numeric"
             id="tempoInvestido"
             placeholder="Tempo de Investimento"
           />
@@ -51,6 +51,11 @@
         </div>
       </div>
     </main>
+
+    <div class="resultado" id="resultado">
+      <h2>Resultado</h2>
+      <p id="resultadoJuros"> </p>
+      <p id="resultadoTotal"> </p> </div>
 
     <footer id="rodape">
       <a href="https://danyeljorge.github.io/meu-portifolio/" target="_blank">
